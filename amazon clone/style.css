@@ -248,3 +248,79 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .hero-section {
+        height: 200px;
+    }
+
+    .shop-section .box {
+        width: 100%;
+    }
+    .navbar {
+        height: auto;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        gap: 1rem;
+    }
+    .add-icon{
+        justify-content: center;
+    }
+
+    .nav-logo {
+        margin-bottom: 5px;
+    }
+    .nav-cart{
+        margin-bottom: 1rem;
+    }
+    .nav-search {
+        width: 100%;
+        max-width: none;
+        justify-content: space-evenly;
+    }
+
+    .search-select,
+    .search-input,
+    .search-icon {
+        border-radius: 4px;
+    }
+.search-input{
+    width: 100%;
+}
+    .box {
+        width: 100%;
+        max-width: none;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+        align-items: stretch;
+        text-align: center;
+        gap: 1rem;
+    }
+    .panel-all{
+        margin-top: 3px;
+    }
+    .panel-obs {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .panel-deals {
+        font-size: 0.85rem;
+        margin-bottom: 3px;
+    } 
+}
